@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Информация о студенте</legend>
+            <label><input type="text" id="fio" required placeholder="Иванов Иван Иванович" autofocus> ФИО</label><br><br>
+            <label><input type="text" id="group" placeholder="EKO-11021"> Группа</label>
+        </fieldset><br>
+        <p>Выбрать 1 верный ответ</p>
+        <p>1. Какой тег сделает текст жирным?</p>
+        <label><input type="radio" name="1" id="1.1"> &#60;b&#62; </label><br>
+        <label><input type="radio" name="1" id="1.2"> &#60;br&#62; </label><br>
+        <label><input type="radio" name="1" id="1.3"> &#60;hr&#62; </label><br><br>
+
+        <p>Выбрать несколько верных ответов</p>
+        <p>2. Какие теги сделают текст курсивным?</p>
+        <label><input type="checkbox" id="2.1"> &#60;i&#62; </label><br>
+        <label><input type="checkbox" id="2.2"> &#60;p&#62; </label><br>
+        <label><input type="checkbox" id="2.3"> &#60;em&#62; </label><br>
+        <label><input type="checkbox" id="2.4"> &#60;br&#62; </label><br><br>
+
+        <p>3. Выбрать правильный порядок тегов из выпадающего списка</p>
+        <select id="3.1">
+            <option value="0"> &#60;p&#62; </option>
+            <option value="1"> &#60;/p&#62; </option>
+        </select>
+        <select id="3.2">
+            <option value="0"> &#60;p&#62; </option>
+            <option value="1"> &#60;/p&#62; </option>
+        </select><br><br>
+
+        <p>Ввод верного ответа в поле</p>
+        <p>4. Какой тег для переноса текста?</p>
+        <label><input type="text" id="4.1"></label><br><br>
+
+        <p>
+            <input type="button" value="Отправить" id="btn">
+            <span id="right_answers"></span>
+        </p>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1vw;
+    color: #cacaca;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: url(https://kalix.club/uploads/posts/2022-12/1672248568_kalix-club-p-mokh-tekstura-besshovnaya-krasivo-16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    width: 80%;
+    height: 95%;
+    margin: 1vw auto;
+    background-color: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(1vw);
+}
+
+fieldset, 
+form {
+    border: .1vw solid rgba(128, 128, 128, .5);
+    border-radius: 1vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, .5);
+    padding: 1vw;
+}
+
+input, 
+select {
+    border: .1vw solid rgba(128, 128, 128, .5);
+    border-radius: 1vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, .5);
+    background-color: rgba(22, 22, 22, .5);
+    padding: .5vw;
+    margin: .2vw;
+    outline: none;
+    color: rgb(255, 255, 255);
+    transition: .3s ease-in-out;
+}
+
+input:hover {
+    cursor: pointer;
+    scale: 1.02;
+}
+
+input:active {
+    scale: .98;
+}
+
+input:focus, 
+select:focus {
+    box-shadow: 0 0 .5vw rgba(172, 255, 47, .5);
+}
+
+input[type="text"] {
+    height: 1.5vw;
+    width: 15vw;
+}
+
+p {
+    margin: .3vw;
+}
+
+input[type="radio"],  
+input[type="checkbox"] {
+    width: 1vw;
+    height: 1vw;
+    margin: .2vw;
+}
+
+input[type="button"] {
+    padding: 1vw;
+}
+
+span {
+    padding: 1vw;
+}
+
+
+
+
+
